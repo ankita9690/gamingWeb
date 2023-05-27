@@ -29,7 +29,7 @@ body{
   align-items: center;
 }
 
-@media (max-width:900px){
+@media only screen and (max-width: 480px){
   .card{
     background-color: black;
     width: 18rem;
