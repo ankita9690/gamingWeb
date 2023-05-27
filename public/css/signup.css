@@ -1,4 +1,5 @@
 body{
+  background-image: url("../images/signin_signup_img/game2.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-color: #DCEDC2;
@@ -26,11 +27,13 @@ form{
 }
 #inputdiv{
   margin-left: 25%;
+  width: 50%;
 }
 .checkbox{
   margin-top: 2%;
 }
 #loginbtn{
+  width: 50%;
   margin-top: 2%;
 }
 #orsignup{
@@ -44,18 +47,29 @@ form{
 
 @media only screen and (max-width: 480px) {
   body {
-    background-size: 100%;
+    background-size: 15%;
+    opacity: 1;
   }
   h1 {
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 0;
+  }
+  h2{
+    font-size: 15px;
+  }
+  p{
+    font-size: 10px;
   }
   form {
     margin: 2% 5%;
     padding: 5%;
   }
+  input{
+    width: 20%;
+  }
   #inputdiv {
-    margin-left: 10%;
-    width: 80%;
+    font-size: 10px;
+    margin-left: 25%;
+    width: 50%;
   }
 }
