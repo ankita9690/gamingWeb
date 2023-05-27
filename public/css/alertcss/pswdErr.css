@@ -1,0 +1,14 @@
+body{
+  font-family: 'Righteous', cursive;
+  background-color: #ff5c5c;
+}
+.container{
+    box-shadow: 4px 4px 20px 8px black;
+  width: 36%;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;;
+  padding: 5%;
+  margin-top: 10%;
+}

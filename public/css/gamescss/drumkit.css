@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  /* background-color: #408E91; */
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+  font-family: 'Righteous', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #DBEDF3;
+  text-shadow: 3px 0 #DA0463;
+}
+
+.w {
+background-image: url("/images/drumkit_img/tom1.png");
+}
+
+.a {
+background-image: url("/images/drumkit_img/tom2.png");
+}
+
+.s {
+background-image: url("/images/drumkit_img/tom3.png");
+}
+
+.d {
+background-image: url("/images/drumkit_img/tom4.png");
+}
+
+.j {
+background-image: url("/images/drumkit_img/snare.png");
+}
+
+.k {
+background-image: url("/images/drumkit_img/crash.png");
+}
+
+.l {
+background-image: url("/images/drumkit_img/kick.png");
+}
+
+.set {
+  margin: 2% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+  border: 4px solid #11e8e5;
+  font-size: 2.5rem;
+  line-height: 2;
+  font-weight: 700;
+  color: #3E54AC;
+  text-shadow: 3px 0 #16FF00;
+  border-radius: 50px;
+  display: inline-block;
+  width: 300px;
+  height: 250px;
+  text-align: left;
+  margin: 10px;
+  background-color: white;
+}

@@ -1,0 +1,29 @@
+body{
+    font-family: 'Righteous', cursive;
+  background-color: #30E3DF;
+  font-size: 20px;
+}
+.card{
+  border-radius: .5rem;
+  box-shadow: 4px 4px 20px 8px black;
+
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 4px 4px 20px 8px black;
+}
+#imagesection{
+  text-align: center;
+  color: black;
+  background-color: #F7EFE5;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+}
+#infosection{
+  background-color: #FFFBF5;
+}
+.borderless-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}

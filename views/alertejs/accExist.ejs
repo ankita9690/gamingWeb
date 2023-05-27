@@ -1,0 +1,20 @@
+<%- include("../partials/header") -%>
+<!-- custom css -->
+<link rel="stylesheet" href="css/alertcss/accExist.css">
+
+<body>
+
+<form action="/accExist" method="post">
+  <div class="container">
+      <h2>
+        Account already exist
+        <i class="fa-solid fa-triangle-exclamation" style="color: #FF6000;"></i>
+      </h2>
+      <p>click below to Login</p>
+      <button class="btn btn-success btn-lg fa-beat" type="submit" name="button"> Login </button>
+  </div>
+</form>
+
+</body>
+
+<%- include("../partials/footer") -%>

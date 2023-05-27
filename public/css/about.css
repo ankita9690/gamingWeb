@@ -1,0 +1,40 @@
+body{
+  font-family: 'Righteous', cursive;
+  background-color: #5BC0F8;
+  font-size: 25px;
+}
+.card{
+  background-color: black;
+  width: 18rem;
+  position: relative;
+  left: 25%;
+  right: 25%;
+}
+.card-body{
+  background-color: white;
+  margin-top: 0.5%;
+}
+.proimg{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  top:10%;
+  left:25%;
+}
+.row{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.colcontent{
+  align-items: center;
+}
+
+@media (max-width:900px){
+  .card{
+    background-color: black;
+    width: 18rem;
+    position: relative;
+    left: 5%;
+    right: 30%;
+  }
+}

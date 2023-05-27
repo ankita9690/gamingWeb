@@ -1,0 +1,194 @@
+<%- include("partials/header") -%>
+<!-- custom css -->
+<link rel="stylesheet" href="css/parallax.css">
+
+<body>
+<form action="/" method="post">
+
+  <section id="topsection">
+        <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a id="textlogo" class="navbar-brand" href="#"><i id="ilogo" class="fa-solid fa-dice fa-beat"></i> GamingWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link">
+            <button type="submit" name="button" value="homepage" class="btndecor">
+              <i class="fa-solid fa-home"></i> Home
+            </button>
+            </a>
+         </li>
+
+          <li class="nav-item">
+            <a class="nav-link">
+            <button type="submit" name="button" value="guestbtn" class="btndecor">
+              <i class="fa-solid fa-puzzle-piece"></i> Play as a Guest
+            </button>
+            </a>
+          </li>
+
+       </ul>
+
+       <ul class="navbar-nav">
+         <li class="nav-item signBtn">
+           <a>
+             <button class="btn btn-danger" type="submit" name="button" value="signupbtn">SignUp</button>
+           </a>
+         </li>
+         <li class="nav-item signBtn">
+           <a>
+             <button class="btn btn-danger" type="submit" name="button" value="signinbtn">SignIn</button>
+           </a>
+         </li>
+       </ul>
+
+      </div>
+    </div>
+  </nav>
+      </section>
+
+      <section>
+  <!-- ///////////////////////////parallax_1/////////////////////////// -->
+        <div id="parallax_1" class="parallax">
+          <div class="startedp">
+            <h1>We let the world play</h1>
+            <h4>Because play is how we learn.That’s why we’re creating the ultimate online playground.Free and open to all.Wanna play?</h4>
+            <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#div_1'">
+            <i class='fas fa-angle-double-down'></i> lets started!
+            </button>
+          </div>
+        </div>
+  <!-- ///////////////////////////div_1/////////////////////////// -->
+       <div id="div_1" class="div">
+         <div class="imgdiv">
+           <img class="innerimg" src="images/parallax_img/p1.png">
+         </div>
+         <div class="started">
+           <h3>A game is an opportunity to focus our energy <br> with relentless optimism,at something <br> we're good at (or getting better at) and enjoy.".</h3>
+           <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#parallax_2'">
+           <i class='fas fa-angle-double-down'></i> Roll!
+           </button>
+         </div>
+       </div>
+  <!-- ///////////////////////////parallax_2/////////////////////////// -->
+        <div id="parallax_2" class="parallax">
+          <div class="imgdiv">
+            <img class="pinnerimg" src="images/parallax_img/p2.png">
+          </div>
+          <div class="startedp">
+            <h3>Winning isn't everything,<br> but it beats anything that comes in second</h3>
+            <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#div_2'">
+            <i class='fas fa-angle-double-down'></i> What's next..?
+            </button>
+          </div>
+        </div>
+  <!-- ///////////////////////////div_2/////////////////////////// -->
+        <div id="div_2" class="div">
+          <div class="imgdiv">
+            <img class="innerimg" src="images/parallax_img/p3.png">
+          </div>
+          <div class="started">
+            <h3>Good games are not just a source of entertainment, <br> they're also a way to challenge <br> ourselves and improve.</h3>
+            <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#parallax_3'">
+            <i class='fas fa-angle-double-down'></i> Continue roll..
+            </button>
+          </div>
+        </div>
+  <!-- ///////////////////////////parallax_3/////////////////////////// -->
+         <div id="parallax_3" class="parallax">
+           <div class="imgdiv">
+             <img class="binnerimg" src="images/parallax_img/p4.png">
+           </div>
+           <div class="startedb">
+             <h2>Games are the only force in the known universe <br> that can get people to take actions against their self-interest, in a predictable way, without using force.</h2>
+             <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#footersection'">
+             <i class='fas fa-angle-double-down'></i> Know more
+             </button>
+           </div>
+         </div>
+
+      </section>
+
+      <section id="footersection">
+
+        <footer class="text-center text-lg-start bg-light text-muted">
+
+          <section>
+            <div class="container text-center text-md-start mt-5">
+              <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 class="fw-bold mb-4">
+                    <i id="ilogo" class="fa-solid fa-dice fa-beat"></i> GamingWeb
+                  </h6>
+                  <p>
+                    Make your life enjoyable with the games provided by us.
+                  </p>
+                  <p  style="color:blue" class="fa-fade">
+                    <a href="about" class="nav-link"> Click here to know more </a>
+                  </p>
+                </div>
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4"> Support </h6>
+                  <p>
+                    <a class="nav-link">
+                      <button type="submit" name="button" value="aboutbtn" class="btndecorend">
+                    <i class="fa-solid fa-magnifying-glass-plus me-3"></i>  About
+                    </button>
+                    </a>
+                  </p>
+                  <p>
+                    <a class="nav-link">
+                      <button type="submit" name="button" value="querybtn" class="btndecorend">
+                    <i class="fa-solid fa-clipboard-question me-3"></i>  FAQ
+                    </button>
+                    </a>
+                  </p>
+                </div>
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4"> Social links </h6>
+                  <p>
+                    <a class="nav-link" href="https://www.linkedin.com/in/ankita-kundliya-5ba21120b/">
+                      <i class="fa-brands fa-linkedin me-3"></i>  Linkedin
+                    </a>
+                  </p>
+                  <p>
+                    <a class="nav-link" href="https://github.com/ankita9690">
+                    <i class="fa-brands fa-github me-3"></i>  Github
+                    </a>
+                  </p>
+                </div>
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Contact Us</h6>
+                  <p>
+                    <i class="fas fa-home me-3"></i> 246149 Uttarakhand, INDIA
+                  </p>
+                  <p>
+                    <i class="fas fa-envelope me-3"></i>ankita2kundliya@gamil.com
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright
+            <a class="backTotop" href="#topsection"><i class="fa-solid fa-circle-arrow-up fa-beat fa-2xl"></i></a>
+          </div>
+
+        </footer>
+
+      </section>
+
+</form>
+</body>
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,37 @@
+body{
+  font-family: 'Righteous', cursive;
+  background-color: #F7C8E0;
+}
+.container{
+    box-shadow: 4px 4px 20px 8px black;
+  width: 36%;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;;
+  padding: 5%;
+  margin-top: 10%;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px dodgerblue;
+}
+
+.btn{
+  background-color: #F7C8E0;
+}
+
+.btn:hover {
+  outline: none;
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px dodgerblue;
+}

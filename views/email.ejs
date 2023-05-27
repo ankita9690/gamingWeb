@@ -1,0 +1,16 @@
+<%- include("partials/header") -%>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/email.css">
+
+  <body>
+    <form action="/emailejs" method="post">
+      <div class="container">
+        <input type="email" name="emailvalue" placeholder="enter your email" autocomplete="off">
+        <button type="submit" name="button" class="btn"> Enter </button>
+      </div>
+    </form>
+
+  </body>
+
+<%- include("partials/footer") -%>

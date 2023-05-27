@@ -1,0 +1,56 @@
+<%- include("partials/header") -%>
+<!-- custom css -->
+<link rel="stylesheet" href="css/query.css">
+
+<body>
+  <h1 style="text-align:center">
+    <i class="fa-solid fa-lightbulb fa-sm"></i>
+    Help center
+  </h1>
+  <h3>Q. Can we play without logging in?</h3>
+  <p>ans. Yes uh  can but ur data not get saved and uh don't get scores or rewards.</p>
+  <h3>Q. How many varieties of games in this website?</h3>
+  <p>ans. There are different sections where uh can find there is puzzle,music games etc.</p>
+  <h3>Q. How i can register ?</h3>
+  <p>
+  <ul>
+    <li>Go to home page.</li>
+    <li>Click on the sign up button.</li>
+    <li>fill your details.</li>
+    <li>Your data get registered.</li>
+  </ul>
+ </p>
+ <h3>Q. How i can login ?</h3>
+ <p>
+ <ul>
+   <li>Go to home page.</li>
+   <li>Click on the sign in button.</li>
+   <li>Enter your username id and password.</li>
+   <li>Click on login button.</li>
+ </ul>
+</p>
+
+<hr>
+
+<h1 style="text-align:center">
+  Submit a request
+</h1>
+
+<form class="req" action="mailto:ankita2kundliya@gmail.com" method="post" enctype="text/plain">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">User Name</label>
+  <input type="text" class="form-control" id="userquery" placeholder="Enter your Name" required>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Query description</label>
+  <textarea class="form-control" id="userqueryd" rows="3"></textarea>
+</div>
+<input style="background-color:Green; color:white;"type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+
+
+
+</body>
+
+<%- include("partials/footer") -%>

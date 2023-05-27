@@ -1,0 +1,43 @@
+body{
+  font-family: 'Righteous', cursive;
+  background-color:#C3ACD0;
+}
+#ilogo{
+  color: #EB455F;
+}
+#textlogo{
+  font-size: 25px;
+}
+nav{
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-item{
+  margin-right: 10px;
+}
+.row{
+  margin: 2%;
+}
+.card{
+  background-color: transparent;
+  border: 1px solid black;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 4px 4px 20px 8px black;
+}
+.btndecor{
+  border: none;
+  background-color: transparent;
+}
+
+@media (max-width:900px){
+  .col{
+    padding: 2%;
+  }
+  .navbar-nav{
+    position: relative;
+    top: 5%;
+  }
+}

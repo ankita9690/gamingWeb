@@ -1,0 +1,20 @@
+<%- include("../partials/header") -%>
+<!-- custom css -->
+<link rel="stylesheet" href="css/alertcss/userErr.css">
+
+<body>
+
+<form action="/userErr" method="post">
+  <div class="container">
+      <h2>
+        Account not exist
+        <i class="fa-solid fa-circle-exclamation" style="color: #ef3434;"></i>
+      </h2>
+      <p> Click below to register </p>
+      <button class="btn btn-danger btn-lg fa-beat" type="submit" name="button"> Register </button>
+  </div>
+</form>
+
+</body>
+
+<%- include("../partials/footer") -%>

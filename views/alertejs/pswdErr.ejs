@@ -1,0 +1,20 @@
+<%- include("../partials/header") -%>
+<!-- custom css -->
+<link rel="stylesheet" href="css/alertcss/pswdErr.css">
+
+<body>
+
+<form action="/pswdErr" method="post">
+  <div class="container">
+      <h2>
+        Incorrect password
+        <i class="fa-solid fa-circle-xmark" style="color: #e31616;"></i>
+      </h2>
+      <p>Please check your password</p>
+      <button class="btn btn-danger btn-lg fa-beat" type="submit" name="button"> Retry </button>
+  </div>
+</form>
+
+</body>
+
+<%- include("../partials/footer") -%>

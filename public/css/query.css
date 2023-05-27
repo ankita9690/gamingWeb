@@ -1,0 +1,13 @@
+body{
+  font-family: 'Righteous', cursive;
+  background-color: #F6E1C3;
+}
+form{
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 2%;
+}

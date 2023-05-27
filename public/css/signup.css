@@ -1,0 +1,43 @@
+body{
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: #DCEDC2;
+  font-family: 'Righteous', cursive;
+}
+h1{
+  font-size: 50px;
+  margin-top: 5%;
+  margin-left: 45%;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
+form{
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  margin:2% 5% 5% 50%;
+  padding: 2%;
+  border-radius: 10%;
+}
+#ilogo{
+  color: #EB455F;
+}
+#inputdiv{
+  margin-left: 25%;
+}
+.checkbox{
+  margin-top: 2%;
+}
+#loginbtn{
+  margin-top: 2%;
+}
+#orsignup{
+  margin-top: 2%;
+}
+.login{
+  border: none;
+  background-color: transparent;
+  color: blue;
+}
