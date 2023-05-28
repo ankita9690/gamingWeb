@@ -33,20 +33,26 @@ h1{
 #parallax_3{
   background-color:#FEFF86;
 }
-
-.startedp{
-  text-align: center;
-  position: absolute;
-  top:40%;
-  bottom:30%;
-  left: 5%;
-}
 .started{
   text-align: center;
   position: absolute;
   top:40%;
   bottom:30%;
   right: 6%;
+}
+.startedpp{
+  text-align: center;
+  position: absolute;
+  top:40%;
+  bottom:30%;
+  left: 5%;
+}
+.startedp{
+  text-align: center;
+  position: absolute;
+  top:40%;
+  bottom:30%;
+  left: 5%;
 }
 .startedb{
   text-align: center;
@@ -59,13 +65,13 @@ h1{
   margin-bottom: 20%;
   margin-left: 10%;
 }
+.innerimg{
+  width: 50%;
+}
 .pinnerimg{
   width: 35%;
   position: absolute;
   right: 8%;
-}
-.innerimg{
-  width: 50%;
 }
 .binnerimg{
   width: 35%;
@@ -101,25 +107,47 @@ h1{
   color: grey;
 }
 
-@media (max-width:900px){
+@media only screen and (max-width: 480px){
   .imgdiv{
     padding-top: 20%;
     margin-bottom: 20%;
-    margin-left: 0%;
+    margin-left: 10%;
+  }
+  .innerimg{
+    width: 100%;
+  }
+  .pinnerimg{
+    width: 80%;
+    position: absolute;
+    right: 8%;
   }
   .binnerimg{
-    width: 35%;
+    width: 80%;
     position: absolute;
     bottom: 25%;
-    right: 30%;
+    right: 5%;
     top:10%;
+  }
+  .startedp{
+    text-align: center;
+    position: absolute;
+    top:40%;
+    bottom:20%;
+    left: 5%;
   }
   .started{
     text-align: center;
     position: absolute;
-    top:40%;
+    top:50%;
     bottom:30%;
-    right: 5%;
+    left: 5%;
+  }
+  .startedp{
+    text-align: center;
+    position: absolute;
+    top:60%;
+    bottom:20%;
+    left: 5%;
   }
   .startedb{
     text-align: center;
@@ -127,10 +155,23 @@ h1{
     top:60%;
     left: 5%;
   }
+  .parallax{
+    min-height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   h1{
-    font-size: 40px;
+    font-size: 30px;
   }
   h2, h3, h4{
     font-size: 20px;
+  }
+  .backTotop, .backTotop:hover{
+    color:#EB455F;
+    position: relative;
+    left: 25%;
   }
 }

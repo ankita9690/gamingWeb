@@ -16,9 +16,9 @@
 
               <div id="imagesection" class="col-md-4">
                 <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
-                alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                alt="Avatar" class="img-fluid my-5 imgav" />
                 <input style="width: 200px;text-align: center; " type="text" name="playername" value="<%=fpname%>" placeholder="Player Name" class="borderless-input" >
-                  <button type="submit" name="button" style="margin-top:20px; border:none;" value="editbtn">
+                  <button type="submit" name="button" class="edit" value="editbtn">
                     <i class="fa-solid fa-pen-to-square fa-lg" style="color: #1336e7;"></i>
                   </button>
 
@@ -28,14 +28,14 @@
                 <div class="card-body p-4">
                   <h5>Player Details <i class="fa-regular fa-circle-question"></i></h5>
                   <hr class="mt-2 mb-4">
-                  <div class="row pt-1">
-                    <div class="col-6 mb-3">
+                  <div class="row pt-1 roww">
+                    <div class="col-6 mb-3 col-md-12">
                       <h6> <i class="fa-solid fa-envelope"></i> Email </h6>
-                      <input  style="width: 150px" type="text" name="playeremail" value="<%=fpemail%>" placeholder="Email" class="borderless-input">
+                      <input type="text" name="playeremail" value="<%=fpemail%>" placeholder="Email" class="borderless-input">
                     </div>
-                    <div class="col-6 mb-3">
+                    <div class="col-6 mb-3 col-md-12">
                       <h6> <i class="fa-solid fa-square-phone-flip"></i> Phone </h6>
-                      <input style="width: 150px" type="text" name="playernum" value="<%=fpnum%>" placeholder="Phone No" class="borderless-input">
+                      <input type="text" name="playernum" value="<%=fpnum%>" placeholder="Phone No" class="borderless-input">
                     </div>
                   </div>
                   <!-- <h5>Game Score <i class="fa-regular fa-star"></i></h5> -->
@@ -45,7 +45,7 @@
                       <h6><i class="fa-solid fa-star"></i> Score</h6>
                       <p class="text-muted">3456</p>
                     </div> -->
-                    <div class="col-6 m-6">
+                    <div class="col-6 mb-6">
                       <button class="btn btn-outline-primary fa-beat" type="submit" name="button" value="letsplaybtn"> Lets play </button>
                     </div>
                   <!-- </div> -->

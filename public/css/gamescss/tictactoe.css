@@ -138,3 +138,76 @@ table {
 .win-color {
     background-color: rgb(240, 240, 240);
 }
+
+
+@media only screen and (max-width: 480px){
+  body {
+          font-size: 0.6em;
+      }
+
+      h1 {
+          line-height: 2em;
+          margin-bottom: 0;
+          padding-bottom: 5px;
+          font-size: 2em;
+      }
+
+      table {
+          margin: 5% auto;
+      }
+
+      #table_game {
+          font-size: 80px;
+      }
+
+      .td_game {
+          width: 100px;
+          height: 100px;
+      }
+
+      .fixed {
+          width: 70px;
+          height: 70px;
+          line-height: 70px;
+      }
+
+      .td_list {
+          font-size: 1.5em;
+      }
+
+      .th_list {
+          font-size: 1.5em;
+      }
+
+      #restart {
+          font-size: 2em;
+          width: 0.8em;
+          height: 0.7em;
+          margin: 0 auto;
+      }
+
+      .x {
+          top: -6px;
+          font-size: 0.9em;
+      }
+
+      .o {
+          top: -5px;
+          font-size: 0.7em;
+      }
+
+      .modal-content {
+          font-size: 1.5em;
+          margin: 20% auto;
+          padding: 15px;
+          border-radius: 50px;
+          width: 300px;
+          max-width: 80%;
+      }
+
+      .close {
+          font-size: 28px;
+          top: -20px;
+          right: -5px;
+      }
+}

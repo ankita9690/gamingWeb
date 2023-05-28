@@ -27,10 +27,30 @@ body {
     border: 1px solid #0c67ae;
 }
 
+h2{
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  color: white;
+}
+
 .refresh{
   font-family: 'Righteous', cursive;
   color: white;
   background-color: #F15A59;
   font-size: 30px;
   border-radius: 40px;
+}
+
+@media only screen and (max-width: 480px){
+  h2{
+    visibility: visible;
+    top: 300px;
+    left: 40px;
+    text-align: center;
+    color: white;
+  }
+  #board, img, h1, .refresh {
+      visibility:hidden;
+  }
 }

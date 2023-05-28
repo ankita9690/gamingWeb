@@ -75,3 +75,25 @@ background-image: url("/images/drumkit_img/kick.png");
   margin: 10px;
   background-color: white;
 }
+
+@media only screen and (max-width: 480px){
+  .j {
+  background-image: url("/images/drumkit_img/snare2.png");
+  }
+  .k {
+  background-image: url("/images/drumkit_img/crash2.png");
+  }
+  .w, .a, .s, .d, .j, .k, .l {
+    background-size: contain;
+    background-position: center;
+  }
+  .drum {
+    background-size: cover;
+    font-size: 1.5rem;
+    line-height: 5;
+    margin: 5px;
+    /* width: 50%; */
+    max-width: 150px;
+    height: 100%;
+  }
+}

@@ -22,3 +22,32 @@ body{
 #infosection{
   background-color: #FFFBF5;
 }
+.profileinp{
+  width: 300px;
+}
+.imgav{
+  width: 80px;
+}
+.save{
+  position: relative;
+  margin:20px;
+}
+
+
+@media only screen and (max-width: 480px){
+  #imagesection{
+    height: 200px;
+    text-align: center;
+    color: black;
+    background-color: #F7EFE5;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  }
+  .profileinp{
+    width: 150px;
+  }
+  .save{
+    position: relative;
+    bottom: 60px;
+  }
+}

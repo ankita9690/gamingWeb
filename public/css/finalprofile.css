@@ -23,7 +23,37 @@ body{
   background-color: #FFFBF5;
 }
 .borderless-input {
+  width: 200px;
   border: none;
   outline: none;
   background-color: transparent;
+}
+.imgav{
+  width: 80px;
+}
+.edit{
+  position: relative;
+  margin-top:20px;
+  margin-bottom: 5px;
+  border:none;
+}
+
+
+@media only screen and (max-width: 480px){
+  #imagesection{
+    height: 200px;
+    text-align: center;
+    color: black;
+    background-color: #F7EFE5;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  }
+  .edit{
+    position: relative;
+    top:60px;
+    right: 120px;
+    margin-top:20px;
+    margin-bottom: 5px;
+    border:none;
+  }
 }
