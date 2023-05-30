@@ -30,7 +30,7 @@ nav{
   background-color:black;
   color: white;
 }
-#col1{
+.col11, .col22{
   background-color: black;
   margin-top: 15%;
 }
@@ -53,10 +53,15 @@ nav{
   h1{
     font-size: 30px;
   }
-  #col1{
+  .col11{
+    background-color: black;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+  .col22{
     background-color: black;
     margin-top: 5%;
-    margin-bottom: 25%;
+    margin-bottom: 10%;
   }
   .nav-item{
     margin: 4px;
