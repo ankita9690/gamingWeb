@@ -58,7 +58,7 @@
             <h1>We let the world play</h1>
             <h4>Because play is how we learn.That’s why we’re creating the ultimate online playground.Free and open to all.Wanna play?</h4>
             <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#div_1'">
-            <a target="#div_1"><i class='fas fa-angle-double-down'></i> lets started!</a>
+            <i class='fas fa-angle-double-down'></i> lets started!
             </button>
           </div>
         </div>
@@ -70,7 +70,7 @@
          <div class="started">
            <h3>A game is an opportunity to focus our energy <br> with relentless optimism,at something <br> we're good at (or getting better at) and enjoy.".</h3>
            <button type="submit" class="btn btn-light btn-lg fa-beat" onclick="window.location.href='#parallax_2'">
-           <a target="#parallax_2"><i class='fas fa-angle-double-down'></i> Roll!</a>
+           <i class='fas fa-angle-double-down'></i> Roll!
            </button>
          </div>
        </div>
@@ -189,6 +189,19 @@
       </section>
 
 </form>
+
+<script>
+  // Smooth scrolling to section on button click
+  document.querySelectorAll('button').forEach(button => {
+    button.addEventListener('click', () => {
+      const target = button.getAttribute('onclick').match(/'#(.+)'$/)[1];
+      document.querySelector(target).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
 </body>
 
 <%- include("partials/footer") -%>
